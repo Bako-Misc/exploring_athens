@@ -5,30 +5,20 @@ html {
 
 body {
     margin: 0;
-}
-
-.class {
-    font-size: 0.5rem;
-    font-weight: lighter;
-}
-
-.coffee
-
+    padding: 0;
+  }
 
 .top {
-    background-color: rgb(181, 24, 24);
-    width: 100%;
-    margin: 0;
-    padding: 1px;
+    background-color: #c3cdf1;
+    position: relative;
+    padding-top: 30px;
 }
 
-.pao{
-    width: 10%;
-    position: absolute;
-    left: 80%;
-    top: 5%;
-    left: 35%
-}
+
+.img_container {
+    position: relative;
+    border: 1px solid black; /* Just for visualization */
+  }
 
  .cafe-list {
     display: flex;
