@@ -16,9 +16,19 @@ body {
 
 
 .img_container {
+    left: 30%;
+    width: 300px; 
+    height: 200px;
     position: relative;
     border: 1px solid black; /* Just for visualization */
+    top: 100px;
   }
+
+.athens {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* This ensures the image covers the entire container */
+}
 
  .cafe-list {
     display: flex;
