@@ -11,7 +11,7 @@ html {
 
 .cafe-content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
     flex: 1;
 }
@@ -20,6 +20,20 @@ html {
     max-width: 150px;
     margin-right: 10px;
 }
+
+.cafe-content ul {
+    margin: 0; /* Remove default margin from the ul element */
+    padding-left: 0; /* Remove default padding from the ul element */
+    list-style: none; /* Remove default list bullet points */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cafe-content ul li {
+    margin-bottom: 5px; /* Add spacing between list items */
+}
+
 
 
 .caffe-page{
