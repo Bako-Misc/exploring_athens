@@ -3,6 +3,11 @@ html {
     font-family:Arial, Helvetica, sans-serif
 }
 
+.caffe-page{
+    background-color: #bcbddc;
+}
+
+
 body {
     margin: 0;
     padding: 0;
