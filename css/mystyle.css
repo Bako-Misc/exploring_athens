@@ -3,39 +3,6 @@ html {
     font-family:Arial, Helvetica, sans-serif
 }
 
-.cafe-list {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.cafe-content {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex: 1;
-}
-
-.cafe-content img {
-    max-width: 150px;
-    margin-right: 10px;
-}
-
-.cafe-content ul {
-    margin: 0; /* Remove default margin from the ul element */
-    padding-left: 0; /* Remove default padding from the ul element */
-    list-style: none; /* Remove default list bullet points */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.cafe-content ul li {
-    margin-bottom: 5px; /* Add spacing between list items */
-}
-
-
-
 .caffe-page{
     background-color: #bcbddc;
     font-size: 14px;
@@ -88,7 +55,7 @@ body {
     width: 50%;
 }
 
- /* .cafe-list {
+ .cafe-list {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -97,4 +64,4 @@ body {
 .cafe-list img {
     max-width: 150px;
     margin-right: 10px;
-} */
+}
