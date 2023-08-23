@@ -14,6 +14,11 @@ body {
     padding-top: 30px;
 }
 
+.columns {
+    width: 33.33%;
+    float: left;
+}
+
 
 .img_container {
     left: 30%;
@@ -21,7 +26,6 @@ body {
     height: 200px;
     position: relative;
     border: 1px solid black; /* Just for visualization */
-    top: 100px;
   }
 
 .athens {
