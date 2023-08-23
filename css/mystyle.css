@@ -3,6 +3,25 @@ html {
     font-family:Arial, Helvetica, sans-serif
 }
 
+.cafe-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cafe-content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.cafe-content img {
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+
 .caffe-page{
     background-color: #bcbddc;
     font-size: 14px;
@@ -19,22 +38,6 @@ html {
     max-width: 100%;
     height: auto;
 }
-
-@media (max-width: 768px) {
-    .columns {
-        width: 100%;
-        float: none; /* Clear the float for mobile layout */
-    }
-}
-
-/* Media query for mobile screens */
-@media (max-width: 768px) {
-    .caffe_plaka {
-        width: 100%; /* Adjust to the desired width */
-        height: auto;
-    }
-}
-
 
 body {
     margin: 0;
@@ -71,7 +74,7 @@ body {
     width: 50%;
 }
 
- .cafe-list {
+ /* .cafe-list {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -80,4 +83,4 @@ body {
 .cafe-list img {
     max-width: 150px;
     margin-right: 10px;
-}
+} */
