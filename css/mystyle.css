@@ -26,7 +26,7 @@ body {
   }
 
 .top {
-    background-color: #c3cdf1;
+    background-color: #7c97f8;
     position: relative;
     padding-top: 30px;
 }
@@ -66,9 +66,7 @@ body {
     margin-right: 10px;
 }
 
-/* Your existing CSS rules */
-
-/* Add these media queries */
+/* Media queries */
 @media screen and (max-width: 768px) {
     .columns {
         width: 100%;
