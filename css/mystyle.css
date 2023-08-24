@@ -65,3 +65,34 @@ body {
     max-width: 150px;
     margin-right: 10px;
 }
+
+/* Your existing CSS rules */
+
+/* Add these media queries */
+@media screen and (max-width: 768px) {
+    .columns {
+        width: 100%;
+        float: none;
+    }
+
+    .cafe-list {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .cafe-list img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .cafe-list ul {
+        padding-left: 0;
+    }
+
+    .img_container {
+        width: 100%;
+        height: auto;
+    }
+}
+
