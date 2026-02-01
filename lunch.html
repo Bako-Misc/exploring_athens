@@ -1,114 +1,297 @@
-<!DOCTYPE html>
-<html class="lunch_page">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Eat something ..🌯 </title>
-        <link rel="stylesheet" href="css/mystyle.css">
-        <link rel="icon" href="favicon.ico?v=2">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="columns">
-        <ul class="cafe-list-container">
-            <li class="cafe-list">
-                <!-- Ariston -->
-                <img class="caffe_plaka" src="images/ariston.jpeg" alt="ariston">
-                <ul type="disk">
-                    <li><strong>Name:</strong> Ariston Bakery</li>
-                    <li><strong>Address:</strong> <a draggable="true" href="https://www.google.com/maps/place/ΑΡΙΣΤΟΝ+ΛΟΜΠΟΤΕΣΗ/@37.976691,23.7277725,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd3c177d79a1:0xbff5d74f61cbaaa1!8m2!3d37.9766869!4d23.7326434!16s%2Fg%2F11b6sqpzrs?entry=ttu">Voulis 10, Athina</a></li>
-                    </li>
-                    <li><strong>Area:</strong> Syntagma | Historic Center</li>
-                    <li><strong>Tip by Nikos:</strong> <em> The oldest Bakery in Athens. Great place to start your day with a spinach or cheese pie</em></li>
-                    <li><strong>How close to Syntagma Square: </strong>4 min 🚶🚶🚶</li>
-                </ul>
-            </li>
-        </ul>
-
-        <ul>
-            <li class="cafe-list">
-                <!-- souvlaki o kostas -->
-                <img class="caffe_plaka" src="images/souvlaki_kostas.jpg" alt="souvlaki">
-                <ul type="disk">
-                    <li><strong>Name:</strong> Souvlaki o Kostas</li>
-                    <li><strong>Address:</strong> <a draggable="true" href="https://www.google.com/maps?client=safari&sca_esv=559361602&rls=en&output=search&q=souvlaki+o+kostas&source=lnms&entry=mc&sa=X&ved=2ahUKEwi1q6vH6_KAAxU71wIHHRi6Dz4Q0pQJegQIDxAB">Pentelis 5, Athina</a></li>
-                    </li>
-                    <li><strong>Area:</strong> Syntagma | Historic Center</li>
-                    <li><strong>Tip by Nikos:</strong> <em> One of the oldest and more traditional places to enjoy a souvlaki. You have to avoid the soulvaki tourist traps around Monastiraki square (e.g Mpairakataris --DO NOT GO THERE!!)</em></li>
-                    <li><strong>How close to Syntagma Square: </strong>4 min 🚶🚶🚶</li>
-                </ul>
-            </li>   
-        </ul>
-
-        <ul>
-            <li class="cafe-list">
-                <!-- Karamanlidika -->
-                <img class="caffe_plaka" src="images/karamnlidika.jpg" alt="karamnlidika">
-                <ul type="disk">
-                    <li><strong>Name:</strong> Karamanlidika</li>
-                    <li><strong>Address:</strong> <a draggable="true" href="https://www.google.com/maps/place/Karamanlidika/@37.9802262,23.7256505,15z/data=!4m2!3m1!1s0x0:0x53427c892f9c3c25?sa=X&ved=2ahUKEwiAnqmV7fKAAxVQiqQKHW4fBvUQ_BJ6BAhXEAA&ved=2ahUKEwiAnqmV7fKAAxVQiqQKHW4fBvUQ_BJ6BAhxEAg">Evripidou 52, Athina</a></li>
-                    </li>
-                    <li><strong>Area:</strong> Monastiraki</li>
-                    <li><strong>Tip by Nikos:</strong> <em> A must GO! A place to enjoy tsipouro and eat some really spicy food (like the "rocket" == very spicy)!</em></li>  
-                    <li><strong>How close to Syntagma Square: </strong>12 min 🚶🚶🚶</li>
-                </ul>
-            </li>  
-        </ul>
-
-        <ul>
-            <li class="cafe-list">
-                <!-- Diporto -->
-                <img class="caffe_plaka" src="images/diporto.jpeg" alt="diporto">
-                <ul type="disk">
-                    <li><strong>Name:</strong> Diporto</li>
-                    <li><strong>Address:</strong> <a draggable="true" href="https://www.google.com/maps/place/Diporto/@37.9807478,23.7258382,15z/data=!4m2!3m1!1s0x0:0x5841a6222a13396a?sa=X&ved=2ahUKEwiE2Ou68PKAAxVQ_bsIHZYrBb8Q_BJ6BAhWEAA&ved=2ahUKEwiE2Ou68PKAAxVQ_bsIHZYrBb8Q_BJ6BAheEAg">Sokratous 9 &, Theatrou, Athina</a></li>
-                    </li>
-                    <li><strong>Area:</strong> Monastiraki</li>
-                    <li><strong>Tip by Nikos:</strong> <em> A nice hidden place to enjoy traditional greek homemade food. One of my favourites</em></li>  
-                    <li><strong>How close to Syntagma Square: </strong>12 min 🚶🚶🚶</li>
-                </ul>
-            </li>
-        </ul>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Have a Bite to Eat 🌯</title>
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="icon" href="favicon.ico?v=2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    id="top"
+    class="bg-gradient-to-b from-slate-50 to-gray-100 text-gray-900"
+  >
+    <nav class="bg-white/70 backdrop-blur border-b border-gray-200/60">
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <a href="./index.html" class="text-gray-900 font-semibold"
+          >Exploring Athens</a
+        >
+        <div class="flex gap-4 text-sm">
+          <a href="./index.html" class="text-gray-600 hover:text-gray-900"
+            >Home</a
+          >
+          <a href="./caffee.html" class="text-gray-600 hover:text-gray-900"
+            >Coffee</a
+          >
+          <a
+            href="./lunch.html"
+            aria-current="page"
+            class="font-semibold text-gray-900"
+            >Food</a
+          >
+          <a href="./visit.html" class="text-gray-600 hover:text-gray-900"
+            >Visit</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div
+      style="background: linear-gradient(to bottom, #c9a574, #b89463)"
+      class="text-white py-16 px-6 shadow-lg"
+    >
+      <div class="max-w-6xl mx-auto">
+        <a
+          href="./index.html"
+          class="inline-block hover:text-white mb-4 text-sm font-semibold"
+          style="color: rgba(255, 255, 255, 0.85)"
+          >← Back to Home</a
+        >
+        <h1 class="text-5xl md:text-6xl font-bold mb-3 drop-shadow-lg">
+          Have a Bite to Eat 🌯
+        </h1>
+        <p class="text-lg" style="color: rgba(255, 255, 255, 0.9)">
+          Explore delicious local restaurants and traditional Greek cuisine
+        </p>
+      </div>
     </div>
 
-    <!-- second main column  -->
+    <section class="max-w-6xl mx-auto px-6 py-10">
+      <h2 class="text-3xl font-bold text-gray-800 mb-2">Food & Taverns</h2>
+      <p class="text-gray-600 mb-6">
+        From classic souvlaki to hidden taverns, curated for a quick, local
+        bite.
+      </p>
+    </section>
 
-    <div class="columns">
-        <ul>
-            <li class="cafe-list">
-                <!-- Ama Lachei -->
-                <img class="caffe_plaka" src="images/amalachei.jpg" alt="amalachei">
-                <ul type="disk">
-                    <li><strong>Name:</strong> Ama Lachei</li>
-                    <li><strong>Address:</strong> <a draggable="true" href="https://www.google.com/maps/place/Ama+Lachei/@37.9881073,23.7342251,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd35c9f43c11:0xcd4bc3df095478db!8m2!3d37.9881073!4d23.7368!16s%2Fg%2F11b6ytb5kg?hl=en&entry=ttu"> Kallidromiou 69, Athina</a></li>
-                    </li>
-                    <li><strong>Area:</strong> Exarcheia</li>
-                    <li><strong>Tip by Nikos:</strong> <em> This place used to be a schoolyard. Good food at reasonable prices.</em></li>
-                    <li><strong>How close to Syntagma Square: </strong>26 min 🚶🚶🚶  or 8 min by 🚕</li> 
-                    
-                </ul>
-            </li>
-        </ul>
+    <!-- Restaurants Grid -->
+    <div class="max-w-6xl mx-auto px-6 pb-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Ariston Bakery -->
+        <div
+          id="ariston"
+          class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="images/ariston.jpeg"
+            alt="ariston"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Ariston Bakery</h3>
+            <div class="space-y-2 text-sm text-gray-700">
+              <p>
+                <strong>Area:</strong>
+                <span style="color: #a68572">Syntagma | Historic Center</span>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps/place/ΑΡΙΣΤΟΝ+ΛΟΜΠΟΤΕΣΗ/@37.976691,23.7277725,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd3c177d79a1:0xbff5d74f61cbaaa1!8m2!3d37.9766869!4d23.7326434!16s%2Fg%2F11b6sqpzrs?entry=ttu"
+                  class="text-blue-600 hover:underline"
+                  >Voulis 10</a
+                >
+              </p>
+              <p><strong>Distance:</strong> 4 min 🚶</p>
+              <p class="italic text-gray-600 mt-3 border-t pt-3">
+                💡 The oldest Bakery in Athens. Great place to start your day
+                with a spinach or cheese pie
+              </p>
+            </div>
+          </div>
+        </div>
 
-        <ul>
-            <li class="cafe-list">
-                <!-- Feedel -->
-                <img class="caffe_plaka" src="images/feedel.jpeg" alt="feedel">
-                <ul type="disk">
-                    <li><strong>Name:</strong> Feedέλ Urban Gastronomy</li>
-                    <li><strong>Address:</strong> <a draggable="true" href="https://www.google.com/maps/place/Feedέλ+Urban+Gastronomy/@37.9762483,23.7312962,16.4z/data=!4m16!1m9!3m8!1s0x14a1bd3cf04b3c6d:0x7461432cd9f0cb9f!2sFeedέλ+Urban+Gastronomy!8m2!3d37.9765566!4d23.7299217!9m1!1b1!16s%2Fg%2F11cjpc64qp!3m5!1s0x14a1bd3cf04b3c6d:0x7461432cd9f0cb9f!8m2!3d37.9765566!4d23.7299217!16s%2Fg%2F11cjpc64qp?entry=ttu"> Ktena 1, Athina</a></li>
-                    </li>
-                    <li><strong>Area:</strong> Monastiraki</li>
-                    <li><strong>Tip by Nikos:</strong> <em> Here you can enjoy traditional dishes with a gourmet touch. It is considered expensive but it is worth it. You might need to make a reservation</em></li>  
-                    <li><strong>How close to Syntagma Square: </strong>6 min 🚶🚶🚶</li> 
-                </ul>
-            </li>
-        </ul>
+        <!-- Souvlaki o Kostas -->
+        <div
+          id="karamanlidika"
+          class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="images/souvlaki_kostas.jpg"
+            alt="souvlaki"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-3">
+              Souvlaki o Kostas
+            </h3>
+            <div class="space-y-2 text-sm text-gray-700">
+              <p>
+                <strong>Area:</strong>
+                <span style="color: #a68572">Syntagma | Historic Center</span>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?client=safari&sca_esv=559361602&rls=en&output=search&q=souvlaki+o+kostas&source=lnms&entry=mc&sa=X&ved=2ahUKEwi1q6vH6_KAAxU71wIHHRi6Dz4Q0pQJegQIDxAB"
+                  class="text-blue-600 hover:underline"
+                  >Pentelis 5</a
+                >
+              </p>
+              <p><strong>Distance:</strong> 4 min 🚶</p>
+              <p class="italic text-gray-600 mt-3 border-t pt-3">
+                💡 One of the oldest and most traditional places to enjoy a
+                souvlaki. Avoid tourist traps!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Karamanlidika -->
+        <div
+          id="feedel"
+          class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="images/karamnlidika.jpg"
+            alt="karamnlidika"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Karamanlidika</h3>
+            <div class="space-y-2 text-sm text-gray-700">
+              <p>
+                <strong>Area:</strong>
+                <span style="color: #a68572">Monastiraki</span>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps/place/Karamanlidika/@37.9802262,23.7256505,15z/data=!4m2!3m1!1s0x0:0x53427c892f9c3c25?sa=X&ved=2ahUKEwiAnqmV7fKAAxVQiqQKHW4fBvUQ_BJ6BAhXEAA"
+                  class="text-blue-600 hover:underline"
+                  >Evripidou 52</a
+                >
+              </p>
+              <p><strong>Distance:</strong> 12 min 🚶</p>
+              <p class="italic text-gray-600 mt-3 border-t pt-3">
+                💡 A must GO! Enjoy tsipouro and really spicy food like
+                "rocket"!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diporto -->
+        <div
+          class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="images/diporto.jpeg"
+            alt="diporto"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Diporto</h3>
+            <div class="space-y-2 text-sm text-gray-700">
+              <p>
+                <strong>Area:</strong>
+                <span style="color: #a68572">Monastiraki</span>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps/place/Diporto/@37.9807478,23.7258382,15z/data=!4m2!3m1!1s0x0:0x5841a6222a13396a?sa=X&ved=2ahUKEwiE2Ou68PKAAxVQ_bsIHZYrBb8Q_BJ6BAhWEAA"
+                  class="text-blue-600 hover:underline"
+                  >Sokratous 9 & Theatrou</a
+                >
+              </p>
+              <p><strong>Distance:</strong> 12 min 🚶</p>
+              <p class="italic text-gray-600 mt-3 border-t pt-3">
+                💡 A nice hidden place with traditional Greek homemade food. One
+                of Nikos' favorites!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ama Lachei -->
+        <div
+          class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="images/amalachei.jpg"
+            alt="amalachei"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Ama Lachei</h3>
+            <div class="space-y-2 text-sm text-gray-700">
+              <p>
+                <strong>Area:</strong>
+                <span style="color: #a68572">Exarcheia</span>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps/place/Ama+Lachei/@37.9881073,23.7342251,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd35c9f43c11:0xcd4bc3df095478db!8m2!3d37.9881073!4d23.7368"
+                  class="text-blue-600 hover:underline"
+                  >Kallidromiou 69</a
+                >
+              </p>
+              <p><strong>Distance:</strong> 26 min 🚶 or 8 min 🚕</p>
+              <p class="italic text-gray-600 mt-3 border-t pt-3">
+                💡 This place used to be a schoolyard. Good food at reasonable
+                prices!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feedel Urban Gastronomy -->
+        <div
+          class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
+        >
+          <img
+            class="w-full h-48 object-cover"
+            src="images/feedel.jpeg"
+            alt="feedel"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-3">
+              Feedέλ Urban Gastronomy
+            </h3>
+            <div class="space-y-2 text-sm text-gray-700">
+              <p>
+                <strong>Area:</strong>
+                <span style="color: #a68572">Monastiraki</span>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps/place/Feedέλ+Urban+Gastronomy/@37.9762483,23.7312962,16.4z/data=!4m16!1m9!3m8!1s0x14a1bd3cf04b3c6d:0x7461432cd9f0cb9f!2sFeedέλ+Urban+Gastronomy"
+                  class="text-blue-600 hover:underline"
+                  >Ktena 1</a
+                >
+              </p>
+              <p><strong>Distance:</strong> 6 min 🚶</p>
+              <p class="italic text-gray-600 mt-3 border-t pt-3">
+                💡 Traditional dishes with a gourmet touch. A bit pricey but
+                worth it. Reservations recommended!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </body>
+
+    <!-- Footer -->
+    <div class="bg-gray-100 py-8 px-6 text-center">
+      <p class="text-gray-600 mb-2">Enjoy delicious Greek cuisine! 🍽️ 🌯</p>
+      <p class="text-xs text-gray-500 mb-3">Last updated: 1 Feb 2026</p>
+      <div class="flex items-center justify-center gap-4 text-sm">
+        <a href="./index.html" class="font-semibold" style="color: #a68572"
+          >← Back to Home</a
+        >
+        <a href="#top" class="text-gray-600 hover:text-gray-900">Back to top</a>
+      </div>
+    </div>
+  </body>
 </html>
-
-
-
